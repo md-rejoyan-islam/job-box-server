@@ -7,6 +7,11 @@ const applySchema = mongoose.Schema(
       ref: "Job",
       required: [true, "Please provide job id"],
     },
+    employer: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: [true, "Please provide employer id"],
+    },
     user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",

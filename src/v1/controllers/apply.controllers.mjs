@@ -7,7 +7,7 @@ import jobModel from "../models/job.model.mjs";
 
 // apply for a job
 export const applyForJob = asyncHandler(async (req, res) => {
-  const { job, user } = req.body;
+  const { job, user, employer } = req.body;
 
   // check if user exists
   const userExists = await userModel.exists({ _id: user });
@@ -20,6 +20,7 @@ export const applyForJob = asyncHandler(async (req, res) => {
   const apply = await applyModel.create({
     job,
     user,
+    employer,
   });
 
   // update data
@@ -72,3 +73,24 @@ export const getJobsByEmail = asyncHandler(async (req, res) => {
     },
   });
 });
+
+// get applications by employer id
+export const getApplicationsByEmployerId = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+
+  // check if user exists
+  const userExists = await userModel.exists({ _id: id });
+
+  if (!userExists) throw createError(404, "User not found");
+
+  const applications = await applyModel.find({ employer: id }).populate("user");
+
+  successResponse(res, {
+    statusCode: 200,
+    message: "All applications",
+    payload: {
+      data: applications,
+    },
+  });
+});
+//

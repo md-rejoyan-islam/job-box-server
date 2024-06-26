@@ -65,13 +65,26 @@ const jobSchema = mongoose.Schema(
       trim: true,
     },
     queries: {
-      type: [Object],
+      type: [
+        {
+          email: {
+            type: String,
+          },
+          question: String,
+          reply: [],
+        },
+      ],
       trim: true,
     },
     applicants: {
       type: [mongoose.Schema.Types.ObjectId],
       ref: "User",
       trim: true,
+    },
+    employer: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: [true, "Please provide employer id"],
     },
   },
   {
