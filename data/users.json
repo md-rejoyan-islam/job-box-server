@@ -1,0 +1,190 @@
+[
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0f7"
+    },
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "gender": "male",
+    "role": "candidate",
+    "candidate": {
+      "skills": ["JavaScript", "Node.js", "React"],
+      "experience": "3 years",
+      "education": "Bachelor's in Computer Science",
+      "country": "USA",
+      "address": "123 Main St, Apt 101",
+      "city": "New York",
+      "postalCode": "10001"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0f8"
+    },
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "gender": "female",
+    "role": "candidate",
+    "candidate": {
+      "skills": ["Python", "Django", "Machine Learning"],
+      "experience": "2 years",
+      "education": "Master's in Data Science",
+      "country": "Canada",
+      "address": "456 Maple Ave, Suite 12",
+      "city": "Toronto",
+      "postalCode": "M5A 1A1"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0f9"
+    },
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily.johnson@example.com",
+    "gender": "female",
+    "role": "employer",
+    "employer": {
+      "companyName": "Tech Corp",
+      "employeeRange": "200-500",
+      "companyCategory": "Technology",
+      "roleInCompany": "CTO"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0fa"
+    },
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michael.brown@example.com",
+    "gender": "male",
+    "role": "candidate",
+    "candidate": {
+      "skills": ["Java", "Spring Boot", "SQL"],
+      "experience": "4 years",
+      "education": "Bachelor's in Software Engineering",
+      "country": "Australia",
+      "address": "789 Oak St, Unit 8",
+      "city": "Sydney",
+      "postalCode": "2000"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0fb"
+    },
+    "firstName": "Sophia",
+    "lastName": "Davis",
+    "email": "sophia.davis@example.com",
+    "gender": "female",
+    "role": "employer",
+    "employer": {
+      "companyName": "Creative Solutions",
+      "employeeRange": "50-200",
+      "companyCategory": "Design",
+      "roleInCompany": "Creative Director"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0fc"
+    },
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david.wilson@example.com",
+    "gender": "male",
+    "role": "candidate",
+    "candidate": {
+      "skills": ["HTML", "CSS", "React", "JavaScript"],
+      "experience": "1 year",
+      "education": "Bachelor's in Web Development",
+      "country": "United Kingdom",
+      "address": "101 High St, Flat 3B",
+      "city": "London",
+      "postalCode": "EC1A 1BB"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0fd"
+    },
+    "firstName": "Olivia",
+    "lastName": "Miller",
+    "email": "olivia.miller@example.com",
+    "gender": "female",
+    "role": "candidate",
+    "candidate": {
+      "skills": ["C#", ".NET", "SQL"],
+      "experience": "5 years",
+      "education": "Master's in Software Engineering",
+      "country": "USA",
+      "address": "321 Birch Rd, Apt 5F",
+      "city": "San Francisco",
+      "postalCode": "94103"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0fe"
+    },
+    "firstName": "William",
+    "lastName": "Taylor",
+    "email": "william.taylor@example.com",
+    "gender": "male",
+    "role": "employer",
+    "employer": {
+      "companyName": "Innovate Inc.",
+      "employeeRange": "500+",
+      "companyCategory": "Innovation & Research",
+      "roleInCompany": "CEO"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b0ff"
+    },
+    "firstName": "Ava",
+    "lastName": "Anderson",
+    "email": "ava.anderson@example.com",
+    "gender": "female",
+    "role": "candidate",
+    "candidate": {
+      "skills": ["Ruby", "Rails", "SQL"],
+      "experience": "3 years",
+      "education": "Bachelor's in Computer Science",
+      "country": "Germany",
+      "address": "654 Pine St, Apt 10A",
+      "city": "Berlin",
+      "postalCode": "10115"
+    },
+    "photo": null
+  },
+  {
+    "_id": {
+      "$oid": "60b77e6b5f4b52f7a2f1b100"
+    },
+    "firstName": "James",
+    "lastName": "Martin",
+    "email": "james.martin@example.com",
+    "gender": "male",
+    "role": "employer",
+    "employer": {
+      "companyName": "Global Enterprises",
+      "employeeRange": "1000+",
+      "companyCategory": "Global Business",
+      "roleInCompany": "COO"
+    },
+    "photo": null
+  }
+]

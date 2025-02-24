@@ -6,7 +6,7 @@ Job Box is a server-side application that helps job seekers organize and manage 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/job-box.git`
+1. Clone the repository: `git clone https://github.com/md-rejoyan-islam/job-box-server.git`
 2. Navigate to the project directory: `cd job-box/server`
 3. Install dependencies: `npm install`
 
@@ -45,10 +45,10 @@ Contributions are welcome! If you would like to contribute to Job Box, please fo
 
 Here are some useful links related to JobBox Client:
 
-- [JobBox Client Repository](https://github.com/md-rejoyan-islam/job-box-client)
-- [JobBox Server Repository](https://github.com/md-rejoyan-islam/job-box-server.git)
-- [JobBox Client Live Preview](https://github.com/md-rejoyan-islam/job-box-server.git)
-- [JobBox Server Live Preview](https://github.com/md-rejoyan-islam/job-box-server.git)
-- [JobBox Server Postman Documentation](https://github.com/md-rejoyan-islam/job-box-server.git)
+- [Client Repository](https://github.com/md-rejoyan-islam/job-box-client)
+- [Server Repository](https://github.com/md-rejoyan-islam/job-box-server.git)
+- [Live Preview](https://job-box-app.netlify.app)
+- [Server Live Preview](https://tinyurl.com/mr3r4sse)
+- [Postman Documentation](https://github.com/md-rejoyan-islam/job-box-server.git)
 
 Feel free to explore these resources to learn more about JobBox Client and its dependencies.

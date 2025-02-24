@@ -1,9 +1,9 @@
 import asyncHandler from "express-async-handler";
 import createError from "http-errors";
-import applyModel from "../models/apply.model.mjs";
 import { successResponse } from "../../helper/responseHandler.mjs";
-import userModel from "../models/user.model.mjs";
+import applyModel from "../models/apply.model.mjs";
 import jobModel from "../models/job.model.mjs";
+import userModel from "../models/user.model.mjs";
 
 // apply for a job
 export const applyForJob = asyncHandler(async (req, res) => {
